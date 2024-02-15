@@ -32,7 +32,7 @@ def asciiShift():
     for c in messageToAscii(): 
         oldInt = ord(c.lower())
         newInt = ord(c.lower()) + shift
-        if oldInt >= 97 and oldInt < 122:
+        if oldInt >= 97 and oldInt <= 122:
             if newInt > 122:
                 newNewInt = newInt - 26 
                 asciiShift.append(chr(newNewInt))
