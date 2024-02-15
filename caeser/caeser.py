@@ -1,11 +1,4 @@
-#RULES 
-#Camel case for ALL variables 
-#Each individual process as it's own function
-#all possible inputs accounted for
-
-
-
-                    #INPUTS MESSAGE AND SHIFT 
+#INPUTS MESSAGE AND SHIFT 
 def inputMessage(): 
     print("What is the message that you want to encrypt") 
     message = input("")
